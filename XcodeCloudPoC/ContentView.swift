@@ -8,17 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    var model: ContentViewModeling
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Spacer()
+            Image(systemName: model.getImageName())
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(model.getTitle())
+                .font(.largeTitle)
+            Text(model.getSubTitle())
+                .font(.subheadline)
+            Spacer()
+            Text(model.getVersion())
+                .font(.caption)
         }
         .padding()
     }
 }
 
+
 #Preview {
-    ContentView()
+    ContentView(
+        model: ContentViewModel(
+            imageName: "cloud.sun.rain"
+        )
+    )
 }

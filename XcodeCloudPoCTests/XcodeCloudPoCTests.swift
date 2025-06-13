@@ -10,8 +10,8 @@ import Testing
 
 struct XcodeCloudPoCTests {
 
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    @Test func testExample() async throws {
+        #expect((0..<6).reduce(0) { sum, _ in sum + 7 } == 42)
     }
 
 }

@@ -8,10 +8,14 @@
 import SwiftUI
 
 @main
-struct XcodeCloudPoCApp: App {
+struct TheApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(
+                model: ContentViewModel(
+                    imageName: "cloud.sun.rain"
+                )
+            )
         }
     }
 }
