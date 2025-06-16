@@ -33,6 +33,8 @@
 		37C90EE12DFC198B005A1049 /* XcodeCloudPoCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeCloudPoCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C90F002DFC26F8005A1049 /* Default.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Default.xctestplan; sourceTree = "<group>"; };
 		37EE3E4F2E005112004EC5E1 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
+		37EE3ECF2E008285004EC5E1 /* ci_post_xcodebuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_xcodebuild.sh; sourceTree = "<group>"; };
+		37EE3ED02E0083F0004EC5E1 /* release-notes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "release-notes.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -103,6 +105,8 @@
 		37EE3E4E2E0050FE004EC5E1 /* ci_scripts */ = {
 			isa = PBXGroup;
 			children = (
+				37EE3ED02E0083F0004EC5E1 /* release-notes.txt */,
+				37EE3ECF2E008285004EC5E1 /* ci_post_xcodebuild.sh */,
 				37EE3E4F2E005112004EC5E1 /* ci_post_clone.sh */,
 			);
 			path = ci_scripts;
