@@ -12,7 +12,13 @@
     "testTimeoutsEnabled" : true
   },
   "testTargets" : [
-
+    {
+      "target" : {
+        "containerPath" : "container:XcodeCloudPoC.xcodeproj",
+        "identifier" : "37C90ED62DFC198B005A1049",
+        "name" : "XcodeCloudPoCTests"
+      }
+    }
   ],
   "version" : 1
 }
