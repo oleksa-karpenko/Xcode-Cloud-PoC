@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "7053F965-8ACD-4FAD-A2AA-5600464A7A55",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:XcodeCloudPoC.xcodeproj",
+      "identifier" : "37C90EC92DFC1989005A1049",
+      "name" : "XcodeCloudPoC"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:XcodeCloudPoC.xcodeproj",
+        "identifier" : "37C90ED62DFC198B005A1049",
+        "name" : "XcodeCloudPoCTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:XcodeCloudPoC.xcodeproj",
+        "identifier" : "37C90EE02DFC198B005A1049",
+        "name" : "XcodeCloudPoCUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
