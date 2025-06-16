@@ -1,0 +1,5 @@
+--indent 2
+--wraparguments beforefirst
+--stripunusedargs closure-only
+--disable redundantReturn
+--swiftversion 6.1

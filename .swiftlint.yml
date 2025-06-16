@@ -1,0 +1,22 @@
+included:
+  - XcodeCloudPoC
+  - XcodeCloudPoCTests
+excluded:
+  - Carthage
+  - Pods:
+  - AuthPoC
+
+opt_in_rules:
+  - empty_count
+  - implicitly_unwrapped_optional
+  - discouraged_optional_collection
+  - fatal_error_message
+
+disabled_rules:
+  - line_length
+  - trailing_whitespace
+  - trailing_comma
+  - identifier_name
+  - discouraged_optional_collection
+
+reporter: xcode
