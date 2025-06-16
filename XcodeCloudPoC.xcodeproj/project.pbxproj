@@ -268,7 +268,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]\nthen\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n    \nif which xcrun >/dev/null; then\n  xcrun --sdk macosx /opt/homebrew/bin/swiftlint --config \"${SRCROOT}/.swiftlint.yml\"\nelse\n  echo \"warning: SwiftLint not installed\"\nfi\n";
+			shellScript = "# if [[ \"$(uname -m)\" == arm64 ]]\n# then\n#     export PATH=\"/opt/homebrew/bin:$PATH\"\n# fi\n    \nif which xcrun >/dev/null; then\n  xcrun --sdk macosx swiftlint --config \"${SRCROOT}/.swiftlint.yml\"\nelse\n  echo \"warning: SwiftLint not installed\"\nfi\n";
 		};
 		3797B75B2E00343B004559CD /* SwiftFormat */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -287,7 +287,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ -x /opt/homebrew/bin/swiftformat ]; then\n  echo \"Running SwiftFormat...\"\n  echo \"/opt/homebrew/bin/swiftformat ${SRCROOT} --config ${SRCROOT}/.swiftformat\"\n  /opt/homebrew/bin/swiftformat \"${SRCROOT}\" --config \"${SRCROOT}/.swiftformat\"\nelse\n  echo \"warning: SwiftFormat not installed\"\nfi\n";
+			shellScript = "echo \"SwiftFormat Path\"\nwhich swiftformat\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
