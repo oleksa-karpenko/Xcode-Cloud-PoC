@@ -5,7 +5,7 @@
 //  Created by Oleksandr Karpenko on 13.06.2025.
 //
 
-@testable import XcodeCloudPoC
+@testable import XcodeCloudPoCOleksa2025
 
 struct MockVersionProvider: AppVersionProviding {
   var version: String

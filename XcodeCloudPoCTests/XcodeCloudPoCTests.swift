@@ -6,7 +6,7 @@
 //
 
 import Testing
-@testable import XcodeCloudPoC
+@testable import XcodeCloudPoCOleksa2025
 
 struct XcodeCloudPoCTests {
   @Test func example() async throws {

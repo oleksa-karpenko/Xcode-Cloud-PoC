@@ -9,9 +9,17 @@
     }
   ],
   "defaultOptions" : {
+    "distributor" : "com.apple.TestFlight",
     "testTimeoutsEnabled" : true
   },
   "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:XcodeCloudPoC.xcodeproj",
+        "identifier" : "37C90EE02DFC198B005A1049",
+        "name" : "XcodeCloudPoCUITests"
+      }
+    },
     {
       "target" : {
         "containerPath" : "container:XcodeCloudPoC.xcodeproj",
