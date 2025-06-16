@@ -11,3 +11,10 @@ brew install swiftformat
 
 ## Checking is swiftformat visible to the shell
 which swiftformat
+
+
+# Installing Firebase
+curl -sL https://firebase.tools | bash
+
+## Checking is Firebase visible to the shell
+which firebase
