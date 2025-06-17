@@ -2,6 +2,8 @@
 
 This is a **Proof of Concept (PoC)** project demonstrating how to use **Xcode Cloud** as a CI/CD system for iOS applications.
 
+![XcodeCloud](images/XcodeCloud.png)
+
 ## About Xcode Cloud
 
 [Xcode Cloud](https://developer.apple.com/xcode-cloud/) is Apple native CI/CD solution integrated into App Store Connect. It automates the process of building, testing, analyzing, and archiving your app directly in the cloud.
