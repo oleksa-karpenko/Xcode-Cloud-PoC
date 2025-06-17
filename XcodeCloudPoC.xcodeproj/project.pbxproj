@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37A4C6C52E01FACA0076A792 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		37C90ECA2DFC1989005A1049 /* XcodeCloudPoCOleksa2025.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeCloudPoCOleksa2025.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C90ED72DFC198B005A1049 /* XcodeCloudPoCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeCloudPoCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C90EE12DFC198B005A1049 /* XcodeCloudPoCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeCloudPoCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +84,7 @@
 		37C90EC12DFC1989005A1049 = {
 			isa = PBXGroup;
 			children = (
+				37A4C6C52E01FACA0076A792 /* README.md */,
 				37EE3E4E2E0050FE004EC5E1 /* ci_scripts */,
 				37C90F002DFC26F8005A1049 /* Default.xctestplan */,
 				37C90ECC2DFC1989005A1049 /* XcodeCloudPoC */,
